@@ -12,11 +12,19 @@
   width: 50%;
 }
 
-.Modal--show {
+/* .Modal--show {} */
+
+/* .Modal--hide {} */
+
+/* .fade-slide-enter {} */
+
+.fade-slide-enter-active {
   animation: showModal 0.4s ease-out forwards;
 }
 
-.Modal--hide {
+/* .fade-slide-exit {} */
+
+.fade-slide-exit-active {
   animation: hideModal 1s ease-out forwards;
 }
 

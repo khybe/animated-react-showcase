@@ -7,7 +7,7 @@ const backdrop = (props) => {
     "Backdrop",
     props.show ? "Backdrop--show" : "Backdrop--hide",
   ];
-  return <div className={cssClasses.join(" ")}></div>;
+  return <div className={cssClasses.join(" ")} onClick={props.closed}></div>;
 };
 
 export default backdrop;
